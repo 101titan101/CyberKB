@@ -1,34 +1,31 @@
+- Execute in Powershell the 'CyberKD' directory.
 # Start of Session (Pull)
 
-- Navigate to CyberKB directory in Powershell
-- ```powershell
+  ```powershell
   git pull --rebase
   ```
 
 # End of Session (Push)
 
-- Navigate to CyberKB directory in Powershell
-- ```powershell
+  ```powershell
+  notes-push
+  ```
+
+# To Create 'notes-push' Function
+
+```powershell
+notepad $PROFILE
+```
+- Paste the following into the Notepad document:
+  ```powershell
   function notes-push {
 	  git add -A
 	  git commit -m "notes: $(Get-Date -Format yyyy-MM-dd)"
 	  git push}
   ```
 
-# To Create 'notes-push' Function
-
-- Open Powershell instance
-```powershell
-notepad $PROFILE
-```
-- Will open a new Notepad $PROFILE file which automatically runs when a new Powershell instance begins
-- Import the following text:
-function notes-push {
-	git add -A
-	git commit -m "notes: $(Get-Date -Format yyyy-MM-dd)"
-	git push
-}
-- Saved and run to execute in the current session:
+- Save and run:
 ```powershell
 . $PROFILE
 ```
+- Now, simply run 'notes-push' to update the Github repo.
