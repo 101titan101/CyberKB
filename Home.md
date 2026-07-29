@@ -18,17 +18,5 @@
 - [[NetExec]]
 - [[PowerView]]
 - [[Impacket]]
-dsfsfdfsdsdfsdfsdffsdsfd
-df
 
-fd
-dfdfdffdsfdsdffsdsfd
-
-sfd
-dsf
-sfd
-scghhhfhcgfxxgfG
-gig'ug'hg
-HG
-HG
-df
+Testing time 29Jul26-1522
