@@ -1,0 +1,21 @@
+- Sign-in logs - flag risky sign-ins and impossible travel.
+- Audit logs - track Conditional Access policy modifications.
+- Watch for illicit consent grants - attacker-registered OAuth apps.
+- Global Administrator assignments should be tightly controlled and monitored.
+- MFA method registration changes can indicate an attacker adding their own factor.
+- Identity Protection risk detections - built-in signal, worth enabling.
+- PIM activations - review who's elevating and why.
+- Legacy authentication protocols should be blocked; they bypass MFA.
+- Federation/trust setting changes (ADFS) can indicate trust abuse.
+- Break-glass account usage should be rare and always investigated.
+- Sign in logs flag risky sign ins and impossible travel patterns. #EntraID #IAM #Cloud
+- OAuth consent phishing tricks users into granting a malicious app persistent API access. #EntraID #Phishing #Cloud
+- Global Administrator assignments should be tightly controlled and closely monitored. #EntraID #IAM #PrivEsc
+- MFA fatigue attacks spam push notifications until a user approves by accident. #EntraID #Phishing #Credentials
+- Conditional Access policies are only as strong as their exclusions. #EntraID #IAM
+- Legacy authentication protocols should be blocked since they bypass MFA. #EntraID #Credentials
+- PIM activations should be reviewed regularly for who is elevating and why. #EntraID #IAM #PrivEsc
+- Illicit consent grants from attacker registered OAuth apps are a stealthy persistence method. #EntraID #Persistence #Cloud
+- Cross tenant access settings need review to prevent unwanted external trust. #EntraID #Cloud #IAM
+- Break glass accounts should be used rarely, and any usage should be investigated immediately. #EntraID #IAM #IR
+- MFA method registration changes can indicate an attacker adding their own authentication factor. #EntraID #Credentials #IR

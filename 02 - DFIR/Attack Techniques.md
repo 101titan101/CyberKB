@@ -1,0 +1,14 @@
+- Living off the land means using built in OS tools instead of malware to stay stealthy #Windows #Linux
+- Pass the hash lets an attacker authenticate with a stolen hash, no plaintext password needed #AD #Windows #Credentials
+- Pass the ticket reuses a stolen Kerberos ticket to impersonate a user #AD #Kerberos #LateralMovement
+- Kerberoasting extracts service account hashes via TGS requests then cracks them offline #AD #Kerberos #Credentials
+- AS REP roasting targets accounts with Kerberos pre auth disabled #AD #Kerberos #Credentials
+- DCSync abuses replication rights to pull password hashes straight from a DC #AD #Credentials #Persistence
+- Golden ticket forges a TGT using the krbtgt hash, gives near unlimited domain access #AD #Kerberos #Persistence
+- Silver ticket forges a service ticket for a specific service, quieter than a golden ticket #AD #Kerberos #Persistence
+- Pass the certificate abuses AD CS misconfigurations to get domain admin #AD #ADCS #Credentials
+- LLMNR/NBT-NS poisoning captures hashes on the local network via spoofed name resolution #Network #Credentials #AD
+- Process injection hides malicious code inside a legitimate process #Windows #Malware
+- DLL sideloading tricks a legit app into loading a malicious DLL #Windows #Malware #Persistence
+- Token impersonation steals another user's access token to escalate privileges #Windows #PrivEsc
+- Credential dumping from LSASS memory is one of the most common post exploitation steps #Windows #Credentials #DFIR

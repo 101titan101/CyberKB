@@ -1,0 +1,6 @@
+- DNS tunneling smuggles data through DNS queries to bypass firewalls #Network #C2 #Exfiltration
+- Beacon traffic to newly registered domains is a common IOC #Network #ThreatIntel #C2
+- ARP spoofing lets an attacker sit in the middle of local traffic #Network #MITM
+- TLS inspection is needed to catch encrypted C2 traffic, but breaks some monitoring assumptions #Network #C2
+- NetFlow/VPC Flow logs show who talked to whom even without payload visibility #Network #Cloud #DFIR
+- Port 445 (SMB) is a classic lateral movement and worm propagation vector #Network #Windows #LateralMovement

@@ -1,0 +1,3 @@
+- ZeroLogon (CVE-2020-1472) abuses a flaw in Netlogon to reset a domain controller's machine account password. #ZeroLogon #ActiveDirectory #Vulnerabilities
+- PrintNightmare (CVE-2021-34527) exploits the print spooler service for remote code execution or local privilege escalation. #PrintNightmare #ActiveDirectory #Vulnerabilities
+- NoPac (CVE-2021-42278/42287) chains sAMAccountName spoofing to impersonate a domain controller. #NoPac #ActiveDirectory #Vulnerabilities

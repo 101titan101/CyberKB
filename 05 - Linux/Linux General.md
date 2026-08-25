@@ -1,0 +1,25 @@
+- /var/log/auth.log or /var/log/secure record authentication events. #Linux #DFIR #Logs
+- auditd's SYSCALL rule records raw syscalls like execve and connect. #Linux #DFIR #Logs
+- Cron jobs are a classic persistence spot, check crontab -l and /etc/cron*. #Linux #Persistence
+- systemd services and timers are increasingly common persistence mechanisms. #Linux #Persistence
+- /etc/ld.so.preload enables library injection, a stealthy persistence technique. #Linux #Persistence #Malware
+- SSH authorized_keys files should be checked for keys the admin didn't add. #Linux #Credentials #Persistence
+- Unexpected SUID and SGID binaries are a common privilege escalation vector. #Linux #PrivEsc
+- Sudoers misconfigurations often provide an easy path to root. #Linux #PrivEsc
+- bash_history can reveal attacker commands, but check if HISTFILE was cleared or unset. #Linux #DFIR #AntiForensics
+- Rootkits on Linux often hide at the kernel or LD_PRELOAD level. #Linux #Malware
+- ps aux and ss/netstat quickly surface odd processes and connections. #Linux #DFIR #Networking
+- Hidden dotfiles and directories with unusual timestamps are a common IOC. #Linux #DFIR #Forensics
+- Fileless malware running purely in memory is harder to catch with disk based tools. #Linux #Malware #EDREvasion
+- Linux capabilities (setcap) can grant a binary specific root like powers without full SUID risk, but are often misused. #Capabilities #Linux #PrivEsc
+- Duplicate UID 0 entries in /etc/passwd indicate a backdoored root equivalent account. #PasswdBackdoor #Linux #Persistence
+- Container escapes via a mounted docker.sock or privileged mode let an attacker pivot from container to host. #ContainerEscape #Linux #Containers
+- The immutable file attribute (chattr +i) can be abused to make malicious files resist deletion. #Chattr #Linux #AntiForensics
+- Loadable kernel module rootkits install via insmod or modprobe and operate below normal detection. #LKMRootkit #Linux #Malware
+- Checking /proc directly can reveal processes hidden from ps by a userland rootkit. #Proc #Linux #DFIR
+- Tampered logrotate configs can be used to destroy evidence faster than normal retention would allow. #Logrotate #Linux #AntiForensics
+- Package manager logs like dpkg.log or yum.log show software install and update history, useful for timeline building. #PackageLogs #Linux #DFIR
+- auditd watch rules can alert in real time on access to sensitive files like /etc/shadow. #Auditd #Linux #ThreatHunting
+- PermitRootLogin and PasswordAuthentication settings in sshd_config are core SSH hardening controls. #SSHHardening #Linux #Credentials
+- SELinux and AppArmor provide mandatory access control that can contain a compromised process even after exploitation. #SELinux #AppArmor #Linux
+- Cron jobs writing to world writable directories are a subtle privilege escalation path. #Cron #Linux #PrivEsc

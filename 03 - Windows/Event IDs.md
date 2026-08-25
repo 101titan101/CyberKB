@@ -1,0 +1,7 @@
+- Event ID 4624/4625 - successful/failed logons.
+- Event ID 4688 - process creation (enable command-line auditing).
+- Event ID 4720/4732/4728 - new accounts and privileged group membership changes.
+- Sysmon Event ID 1 - process creation with hashes and parent process.
+- Event ID 4104 - PowerShell script block logging.
+- Event ID 4769 with RC4 encryption is a Kerberoasting red flag.
+- Event ID 4662 with replication GUIDs can indicate DCSync activity.

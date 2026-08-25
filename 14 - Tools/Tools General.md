@@ -1,0 +1,5 @@
+- Mimikatz extracts plaintext passwords, hashes, and Kerberos tickets from memory #Credentials #Windows #Tools
+- BloodHound maps AD attack paths using graph theory #AD #ThreatIntel #Tools
+-  Threat intel feeds and IOC matching should supplement, not replace, behavioral hunting. #ThreatHunting #ThreatIntel
+- YARA rules help hunt for malware based on file patterns and byte signatures. #ThreatHunting #Tools #Malware
+- Sigma rules provide a vendor agnostic way to write and share detection logic. #ThreatHunting #Tools #DetectionEngineering

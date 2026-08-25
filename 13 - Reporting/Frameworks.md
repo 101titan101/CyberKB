@@ -1,0 +1,5 @@
+- MITRE ATT&CK maps adversary behavior to tactics and techniques, common IR reference #ThreatIntel #IR #Frameworks
+- The Cyber Kill Chain breaks an attack into stages from recon to actions on objectives #ThreatIntel #IR #Frameworks
+- The Pyramid of Pain ranks IOCs by how much pain they cause an attacker to change #ThreatIntel #IR
+- NIST 800-61 is the standard IR lifecycle: prepare, detect, contain, eradicate, recover, lessons learned #IR #Frameworks
+- Purple teaming combines red and blue team efforts to validate detections in real time #IR #ThreatIntel

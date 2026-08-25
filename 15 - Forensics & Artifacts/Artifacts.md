@@ -1,0 +1,8 @@
+- Shellbags reveal folders a user browsed, even after deletion #Windows #DFIR #Forensics
+- Amcache and Shimcache both record evidence of program execution #Windows #DFIR #Forensics
+- Jump lists show recently accessed files per application #Windows #DFIR #Forensics
+- $LogFile and $UsnJrnl track NTFS file system changes over time #Windows #DFIR #Forensics
+- Volume Shadow Copies can hold older versions of encrypted/deleted files #Windows #DFIR #Ransomware
+- Browser history and download artifacts often reveal initial access #DFIR #Forensics #Web
+- Memory forensics (Volatility) can recover encryption keys and injected code #DFIR #Forensics #Malware
+- Timestomping alters file timestamps to blend in or confuse a timeline #DFIR #Forensics #AntiForensics

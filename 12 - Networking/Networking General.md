@@ -1,0 +1,14 @@
+- TCP's three way handshake (SYN, SYN ACK, ACK) establishes a connection before data transfer. #Networking #Protocols
+- Port 22 is SSH, one of the most targeted services for brute force attacks. #Networking #Linux #Credentials
+- Port 445 is SMB, commonly abused for lateral movement and worm propagation. #Networking #Windows #LateralMovement
+- Port 3389 is RDP, a frequent initial access vector when exposed to the internet. #Networking #Windows #InitialAccess
+- Port 389/636 is LDAP/LDAPS, used for directory queries and often abused for enumeration. #Networking #ActiveDirectory
+- DNS tunneling smuggles data through DNS queries to bypass firewalls. #Networking #C2 #Exfiltration
+- ARP spoofing lets an attacker sit in the middle of local traffic. #Networking #MITM
+- LLMNR and NBT NS poisoning capture hashes on the local network via spoofed name resolution. #Networking #Credentials #ActiveDirectory
+- NetFlow and VPC Flow Logs show who talked to whom even without payload visibility. #Networking #Cloud #DFIR
+- Beaconing traffic with regular jittered intervals is a classic C2 signature. #Networking #C2 #ThreatIntel
+- TLS inspection is often needed to catch encrypted C2 traffic but breaks some monitoring assumptions. #Networking #C2
+- Egress filtering restricts outbound traffic and can break basic C2 channels. #Networking #IR
+- VLANs and network segmentation limit how far an attacker can move laterally. #Networking #LateralMovement
+- IDS and IPS signatures should be paired with behavioral detection, not relied on alone. #Networking #IR

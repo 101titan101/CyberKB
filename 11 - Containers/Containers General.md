@@ -1,0 +1,12 @@
+- An exposed docker.sock inside a container effectively hands over control of the host. #DockerSocket #Containers #ContainerEscape
+- Privileged containers run with nearly full host capabilities and should be avoided unless absolutely required. #PrivilegedContainer #Containers #Docker
+- Kubernetes RBAC misconfigurations are one of the most common paths to cluster wide privilege escalation. #KubernetesRBAC #Kubernetes #Containers #PrivEsc
+- kubectl exec into a running pod can be an attacker's foothold, so exec events deserve monitoring. #KubectlExec #Kubernetes #Containers
+- Kubernetes secrets are base64 encoded by default, not encrypted, and should be treated as effectively plaintext. #K8sSecrets #Kubernetes #Credentials
+- Image scanning tools like Trivy and Grype catch known vulnerabilities before a container ever deploys. #ImageScanning #Containers #Vulnerabilities
+- Pod Security Standards and admission controllers block risky pod configurations, like privileged mode, at deploy time. #PodSecurityStandards #Kubernetes #Containers
+- Kubernetes audit logs record every API server request and are essential for cluster level forensics. #K8sAuditLogs #Kubernetes #DFIR
+- An unauthenticated Kubernetes dashboard or exposed etcd instance is a critical, often internet facing exposure. #ExposedEtcd #Kubernetes #Containers
+- Sidecar or init container tampering can serve as a stealthy, less obvious persistence method. #SidecarTampering #Kubernetes #Persistence
+- imagePullSecrets stored in a cluster are a common target for lateral movement into private registries. #ImagePullSecrets #Kubernetes #Containers
+- Namespace isolation in Kubernetes is a logical boundary, not a hard security boundary, by default. #Namespaces #Kubernetes #Containers

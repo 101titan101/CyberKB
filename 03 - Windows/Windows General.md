@@ -1,0 +1,18 @@
+- Event ID 4624 and 4625 log successful and failed logons. #Windows #EventIDs
+- Event ID 4688 logs process creation, enable command line auditing for full value. #Windows #EventIDs #DFIR
+- Sysmon Event ID 1 captures process creation with hashes and parent process. #Windows #Sysmon #DFIR
+- Sysmon Event ID 10 flags LSASS access, a common credential dumping indicator. #Windows #Sysmon #Credentials
+- Mimikatz extracts plaintext passwords, hashes, and Kerberos tickets from memory. #Windows #Credentials #Tools
+- Pass the hash lets an attacker authenticate with a stolen hash, no plaintext needed. #Windows #Credentials #LateralMovement
+- Living off the land uses built in tools like PowerShell and WMI to stay stealthy. #Windows #EDREvasion
+- Scheduled tasks and Run/RunOnce registry keys are common persistence spots. #Windows #Persistence
+- WMI event subscriptions are a stealthy, often overlooked persistence technique. #Windows #Persistence
+- Shellbags reveal folders a user browsed, even after deletion. #Windows #DFIR #Forensics
+- Amcache and Shimcache both record evidence of program execution. #Windows #DFIR #Forensics
+- Prefetch files show evidence of execution even after the file itself is deleted. #Windows #DFIR #Forensics
+- Volume Shadow Copies can hold older versions of encrypted or deleted files. #Windows #DFIR #Ransomware
+- Ransomware often disables Volume Shadow Copy via vssadmin before encrypting. #Windows #Ransomware
+- DLL sideloading tricks a legitimate app into loading a malicious DLL. #Windows #Malware #Persistence
+- Token impersonation steals another user's access token to escalate privileges. #Windows #PrivEsc
+- Event ID 1102, audit log cleared, is a major red flag for anti forensics. #Windows #EventIDs #AntiForensics
+- Autoruns and Autorunsc quickly surface anomalies across all startup locations. #Windows #Tools #Persistence

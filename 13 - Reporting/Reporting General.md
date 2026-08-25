@@ -1,0 +1,12 @@
+- Executive summaries should lead with business impact, not technical detail, since that's what leadership acts on. #ExecutiveSummary #Reporting #IR
+- A clear timeline of events helps stakeholders understand attack progression at a glance. #Timeline #Reporting #IR
+- Root cause and initial access vector should always be explicitly stated, not implied. #RootCause #Reporting #IR
+- Scope of compromise (systems, accounts, data) needs explicit boundaries rather than vague language. #Scope #Reporting #IR
+- Remediation recommendations should be prioritized by severity, like critical, high, medium, and low. #Remediation #Reporting #IR
+- IOCs should be delivered in a machine readable format like CSV or STIX so other teams can act on them directly. #IOCSharing #Reporting #ThreatIntel
+- A lessons learned section closes the loop and should feed directly back into IR plan updates. #LessonsLearned #Reporting #IR
+- Reports should clearly separate confirmed facts from working hypotheses. #FactsVsHypotheses #Reporting #DFIR
+- Sensitive personal or legal information should be redacted appropriately before wide report distribution. #Redaction #Reporting
+- A "what we don't know yet" section manages stakeholder expectations honestly. #Unknowns #Reporting #IR
+- Supporting evidence should be retained and referenced separately rather than embedded directly in the main report. #EvidenceHandling #Reporting #DFIR
+- Aligning report terminology to a framework like MITRE ATT&CK makes findings comparable across incidents and teams. #MITREATTACK #Reporting #Frameworks

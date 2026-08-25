@@ -1,0 +1,19 @@
+- OAuth consent phishing tricks users into granting a malicious app persistent API access #Entra #Cloud #Phishing
+- Overprivileged service principals are a top cloud privilege escalation path #Entra #AWS #Azure #IAM
+- Shadow IT (unsanctioned SaaS/cloud apps) expands the attack surface silently #Cloud #ThreatIntel
+- Misconfigured S3 buckets remain one of the most common cloud data leak causes #AWS #Cloud #DataLeak
+- Conditional Access policies are only as strong as their exclusions #Entra #IAM
+- MFA fatigue attacks spam push notifications until a user approves by accident #Entra #IAM #Phishing
+- Cross tenant access settings need review to prevent unwanted external trust #Entra #Cloud #IAM
+- SQL injection lets an attacker manipulate backend database queries through user input. #Web #Vulnerabilities
+- Cross site scripting (XSS) injects malicious script into pages viewed by other users. #Web #Vulnerabilities
+- Cross site request forgery (CSRF) tricks a user's browser into making unwanted authenticated requests. #Web #Vulnerabilities
+- Server side request forgery (SSRF) tricks a server into making requests on the attacker's behalf. #Web #Vulnerabilities #Cloud
+- Web shells give persistent remote access through a compromised web server. #Web #Persistence #Malware
+- Insecure deserialization can lead to remote code execution from untrusted input. #Web #Vulnerabilities
+- Broken authentication and session management remain a top OWASP risk category. #Web #Credentials #Vulnerabilities
+- Directory traversal lets an attacker read files outside the intended web root. #Web #Vulnerabilities
+- Exposed .git or .env files often leak credentials and source code. #Web #DataLeak #Credentials
+- Security headers like CSP and HSTS reduce common client side attack surface. #Web #IR
+- WAFs help filter known malicious patterns but shouldn't be the only layer of defense. #Web #Networking #IR
+- API endpoints with broken object level authorization (BOLA) are a common modern web risk. #Web #Vulnerabilities #Cloud

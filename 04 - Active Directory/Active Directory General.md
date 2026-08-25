@@ -1,0 +1,44 @@
+- Living off the land means using built in OS tools instead of malware to stay stealthy #Windows #Linux
+- Pass the hash lets an attacker authenticate with a stolen hash, no plaintext password needed #AD #Windows #Credentials
+- Pass the ticket reuses a stolen Kerberos ticket to impersonate a user #AD #Kerberos #LateralMovement
+- Kerberoasting extracts service account hashes via TGS requests then cracks them offline #AD #Kerberos #Credentials
+- AS REP roasting targets accounts with Kerberos pre auth disabled #AD #Kerberos #Credentials
+- DCSync abuses replication rights to pull password hashes straight from a DC #AD #Credentials #Persistence
+- Golden ticket forges a TGT using the krbtgt hash, gives near unlimited domain access #AD #Kerberos #Persistence
+- Silver ticket forges a service ticket for a specific service, quieter than a golden ticket #AD #Kerberos #Persistence
+- Pass the certificate abuses AD CS misconfigurations to get domain admin #AD #ADCS #Credentials
+- LLMNR/NBT-NS poisoning captures hashes on the local network via spoofed name resolution #Network #Credentials #AD
+- Process injection hides malicious code inside a legitimate process #Windows #Malware
+- DLL sideloading tricks a legit app into loading a malicious DLL #Windows #Malware #Persistence
+- Token impersonation steals another user's access token to escalate privileges #Windows #PrivEsc
+- Credential dumping from LSASS memory is one of the most common post exploitation steps #Windows #Credentials #DFIR
+- Kerberoasting extracts service account hashes via TGS requests, then cracks them offline. #ActiveDirectory #Kerberos #Credentials
+- AS REP roasting targets accounts with Kerberos pre authentication disabled. #ActiveDirectory #Kerberos #Credentials
+- DCSync abuses replication rights to pull password hashes straight from a domain controller. #ActiveDirectory #Credentials #Persistence
+- Golden tickets forge a TGT using the krbtgt hash for near unlimited domain access. #ActiveDirectory #Kerberos #Persistence
+- Silver tickets forge a service ticket for one specific service, quieter than a golden ticket. #ActiveDirectory #Kerberos #Persistence
+- Unconstrained delegation on an account is a high value target for full domain compromise. #ActiveDirectory #PrivEsc
+- BloodHound maps AD attack paths using graph theory. #ActiveDirectory #Tools #ThreatIntel
+- AdminSDHolder ACLs should be monitored for unauthorized permission changes. #ActiveDirectory #Persistence
+- Domain Admins and Enterprise Admins group membership changes deserve constant monitoring. #ActiveDirectory #PrivEsc
+- SYSVOL and NETLOGON scripts sometimes hide embedded plaintext credentials. #ActiveDirectory #Credentials
+- Event ID 4769 with RC4 encryption is a classic Kerberoasting indicator. #ActiveDirectory #EventIDs #Kerberos
+- Event ID 4662 tied to replication GUIDs can indicate DCSync activity. #ActiveDirectory #EventIDs #Credentials
+- Pass the certificate abuses AD CS misconfigurations to reach domain admin. #ActiveDirectory #ADCS #Credentials
+- Trust relationship changes between domains or forests should always be investigated. #ActiveDirectory #IR
+- NTLMv1 and LM hashes are legacy authentication and should be disabled where possible. #ActiveDirectory #Credentials
+- Resource based constrained delegation (RBCD) lets an attacker with write access to a computer object impersonate users against it. #RBCD #ActiveDirectory #PrivEsc
+- LAPS randomizes and rotates local administrator passwords to prevent lateral movement via shared local admin creds. #LAPS #ActiveDirectory #Credentials
+- ZeroLogon (CVE-2020-1472) abuses a flaw in Netlogon to reset a domain controller's machine account password. #ZeroLogon #ActiveDirectory #Vulnerabilities
+- PrintNightmare (CVE-2021-34527) exploits the print spooler service for remote code execution or local privilege escalation. #PrintNightmare #ActiveDirectory #Vulnerabilities
+- NoPac (CVE-2021-42278/42287) chains sAMAccountName spoofing to impersonate a domain controller. #NoPac #ActiveDirectory #Vulnerabilities
+- SID history injection can grant an account privileges from a trusted domain without any group membership change. #SIDHistory #ActiveDirectory #PrivEsc
+- Group Policy Preferences can leave a reversible encrypted cpassword value exposed in SYSVOL. #GPP #ActiveDirectory #Credentials
+- Shadow credentials attacks abuse msDS-KeyCredentialLink to add an attacker controlled certificate based logon. #ShadowCredentials #ActiveDirectory #PrivEsc
+- ADCS ESC1 through ESC8 are certificate template misconfigurations that can lead to full domain takeover. #ADCS #ActiveDirectory #PrivEsc
+- A tiering model separates Tier 0 (domain admin), Tier 1 (servers), and Tier 2 (workstations) to limit credential exposure. #TieringModel #ActiveDirectory #IR
+- The Protected Users group blocks NTLM, weak encryption, and credential caching for its members. #ProtectedUsers #ActiveDirectory #Credentials
+- DSRM password reuse is a lesser known but persistent domain controller local admin backdoor. #DSRM #ActiveDirectory #Persistence
+- Read only domain controllers limit credential exposure at less secure branch locations. #RODC #ActiveDirectory
+- The AD Recycle Bin allows recovery of deleted objects, useful in both IR and accidental deletion cases. #ADRecycleBin #ActiveDirectory #DFIR
+- Delegation abuse chains often move from unconstrained to constrained to resource based, each worth hunting separately. #Delegation #ActiveDirectory #PrivEsc

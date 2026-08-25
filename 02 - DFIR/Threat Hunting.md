@@ -1,0 +1,27 @@
+- Baseline normal traffic first, anomalies are only meaningful measured against a known baseline. #ThreatHunting #Networking
+- Hunt for beaconing patterns, regular interval callbacks with slight jitter to external IPs. #ThreatHunting #C2 #Networking
+- Look for DNS requests to newly registered or algorithmically generated domains. #ThreatHunting #DNS #C2
+- Flag rare parent child process relationships, like Word spawning PowerShell. #ThreatHunting #Windows #DFIR
+- Hunt for encoded or obfuscated PowerShell command lines. #ThreatHunting #Windows #EDREvasion
+- Search for LOLBins used in unusual contexts, like certutil downloading files. #ThreatHunting #Windows #EDREvasion
+- Review authentication logs for logons at odd hours or from unusual geographies. #ThreatHunting #Credentials #DFIR
+- Hunt for lateral movement indicators like PsExec, WMI, or remote scheduled tasks. #ThreatHunting #LateralMovement #Windows
+- Look for large or unusual outbound data transfers, a sign of possible exfiltration. #ThreatHunting #Exfiltration #Networking
+- Threat intel feeds and IOC matching should supplement, not replace, behavioral hunting. #ThreatHunting #ThreatIntel
+- YARA rules help hunt for malware based on file patterns and byte signatures. #ThreatHunting #Tools #Malware
+- Sigma rules provide a vendor agnostic way to write and share detection logic. #ThreatHunting #Tools #DetectionEngineering
+- Hunt for new local admin accounts or unexpected privilege escalation. #ThreatHunting #PrivEsc #Windows
+- Check for disabled or tampered security tools, like a stopped EDR service. #ThreatHunting #EDREvasion #IR
+- Correlate EDR, firewall, and identity logs together, single source hunting misses a lot. #ThreatHunting #DFIR
+- Unusual outbound connections to rare or newly seen countries can indicate C2 activity. #IOA #Networking #C2
+- A spike in failed logons followed by a success can indicate a successful brute force or password spray. #IOA #Credentials #ActiveDirectory
+- Disabled logging or cleared event logs, Event ID 1102, strongly suggests anti forensic activity. #IOA #AntiForensics #Windows
+- New scheduled tasks or services created outside change windows are worth investigating. #IOA #Persistence #Windows
+- Processes running from temp directories or unusual paths are a common red flag. #IOA #Malware #Windows
+- Unexpected use of remote access tools like AnyDesk or TeamViewer can indicate attacker tooling. #IOA #RemoteAccess #ThreatHunting
+- Multiple failed MFA prompts followed by one approval can indicate an MFA fatigue attack. #IOA #EntraID #Phishing
+- Sudden encryption of large volumes of files is the clearest sign of active ransomware. #IOA #Ransomware #DFIR
+- Data staged in an unusual location, like a compressed archive in a temp folder, suggests exfiltration prep. #IOA #Exfiltration #DFIR
+- Service accounts logging in interactively is abnormal and often indicates compromise. #IOA #Credentials #ActiveDirectory
+- New OAuth app registrations with broad permissions are a modern cloud compromise signal. #IOA #Cloud #EntraID
+- Low and slow, encrypted C2 traffic with consistent jitter is a hallmark of a patient, skilled attacker. #IOA #C2 #ThreatIntel
