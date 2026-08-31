@@ -8,7 +8,7 @@
 - Sudoers misconfigurations often provide an easy path to root. #Linux #PrivEsc
 - bash_history can reveal attacker commands, but check if HISTFILE was cleared or unset. #Linux #DFIR #AntiForensics
 - Rootkits on Linux often hide at the kernel or LD_PRELOAD level. #Linux #Malware
-- ps aux and ss/netstat quickly surface odd processes and connections. #Linux #DFIR #Networking
+- ps aux and ss/netstat quickly surface odd processes and connections. #Linux #DFIR #Network
 - Hidden dotfiles and directories with unusual timestamps are a common IOC. #Linux #DFIR #Forensics
 - Fileless malware running purely in memory is harder to catch with disk based tools. #Linux #Malware #EDREvasion
 - Linux capabilities (setcap) can grant a binary specific root like powers without full SUID risk, but are often misused. #Capabilities #Linux #PrivEsc
@@ -23,3 +23,14 @@
 - PermitRootLogin and PasswordAuthentication settings in sshd_config are core SSH hardening controls. #SSHHardening #Linux #Credentials
 - SELinux and AppArmor provide mandatory access control that can contain a compromised process even after exploitation. #SELinux #AppArmor #Linux
 - Cron jobs writing to world writable directories are a subtle privilege escalation path. #Cron #Linux #PrivEsc
+- The Filesystem Hierarchy Standard (FHS) defines standard directories like /etc, /var, and /usr. #LinuxGeneral #FHS
+- /etc/shadow stores hashed passwords and is readable only by root. #LinuxGeneral #Shadow #Credentials
+- systemd is the default init system on most modern distributions, managing services and boot order. #LinuxGeneral #Systemd
+- SELinux operates in enforcing, permissive, or disabled modes. #LinuxGeneral #SELinux
+- The kernel ring buffer, viewed with dmesg, logs hardware and kernel level events. #LinuxGeneral #Dmesg #Logs
+- iptables and nftables are the traditional and modern Linux firewall frameworks. #LinuxGeneral #Firewall
+- SSH key based authentication is more secure than password authentication and should be preferred. #LinuxGeneral #SSH #Credentials
+- The /tmp directory is world writable by default and a common spot for dropped malware. #LinuxGeneral #Tmp #Malware
+- Package managers like apt, yum, and dnf track installed software and can verify package integrity. #LinuxGeneral #PackageManagers
+- Environment variables like LD_PRELOAD can be abused to inject code into other processes. #LinuxGeneral #LDPreload #PrivEsc
+- The /var/log directory is the default home for most system and application logs. #LinuxGeneral #Logs

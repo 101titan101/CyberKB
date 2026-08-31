@@ -1,0 +1,8 @@
+- The OWASP Top 10 is the standard reference list of the most critical web application security risks. #WebGeneral #OWASP
+- HTTPS encrypts traffic in transit but does nothing to protect against a vulnerable application itself. #WebGeneral #HTTPS
+- Cookies with the HttpOnly flag can't be accessed by JavaScript, reducing XSS driven theft. #WebGeneral #Cookies
+- The SameSite cookie attribute helps mitigate CSRF by restricting cross site cookie sending. #WebGeneral #SameSite #CSRF
+- Rate limiting on login endpoints helps blunt brute force and credential stuffing attempts. #WebGeneral #RateLimiting
+- Input validation and output encoding are the two core defenses against injection style attacks. #WebGeneral #InputValidation
+- JWTs must have their signature properly verified, or they can be forged. #WebGeneral #JWT
+- CORS misconfiguration can allow an untrusted origin to make authenticated requests to an API. #WebGeneral #CORS

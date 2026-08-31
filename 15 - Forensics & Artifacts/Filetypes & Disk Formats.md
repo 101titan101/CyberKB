@@ -1,0 +1,1 @@
+- E01 is a forensically sound, compressed disk image format, an alternative to raw dd images. #E01 #DFIR #Forensics #DiskFormats

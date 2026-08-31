@@ -1,0 +1,8 @@
+- Velociraptor uses VQL (Velociraptor Query Language) to define and run artifact collection across one endpoint or an entire fleet. #Velociraptor #VQL
+- Artifacts in Velociraptor are reusable, shareable YAML definitions for collecting a specific type of evidence, like Prefetch or browser history. #Velociraptor #VelociraptorArtifacts
+- Hunts let an analyst run the same VQL query across every connected endpoint at once and watch results return live. #Velociraptor #Hunts #ThreatHunting
+- The offline collector builds a standalone binary that gathers forensic artifacts from a system with no Velociraptor agent installed. #Velociraptor #OfflineCollector #DFIR
+- Client monitoring in Velociraptor can continuously watch for events like new process creation or file writes in near real time. #Velociraptor #ClientMonitoring
+- Notebooks combine VQL queries, results, and analyst notes into a single shareable investigation record. #Velociraptor #Notebooks #Reporting
+- The server GUI lets an analyst triage results, download collected files, and pivot between hosts without touching a command line. #Velociraptor #GUI
+- Velociraptor can remotely retrieve full files, registry hives, or even memory images from a live endpoint for offline analysis. #Velociraptor #RemoteCollection #DFIR

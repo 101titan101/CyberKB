@@ -4,3 +4,16 @@
 - TLS inspection is needed to catch encrypted C2 traffic, but breaks some monitoring assumptions #Network #C2
 - NetFlow/VPC Flow logs show who talked to whom even without payload visibility #Network #Cloud #DFIR
 - Port 445 (SMB) is a classic lateral movement and worm propagation vector #Network #Windows #LateralMovement
+- HTTP (80) and HTTPS (443) are the standard web traffic ports. #Protocols #HTTP #HTTPS
+- DNS (53) translates domain names into IP addresses. #Protocols #DNS
+- SSH (22) provides encrypted remote shell access. #Protocols #SSH
+- RDP (3389) provides remote desktop access to Windows systems. #Protocols #RDP
+- SMB (445) is used for Windows file sharing and is a common lateral movement path. #Protocols #SMB
+- FTP (21) transfers files but sends credentials in plaintext by default. #Protocols #FTP
+- Telnet (23) is a legacy remote access protocol that sends everything, including passwords, in plaintext. #Protocols #Telnet
+- SMTP (25) is used for sending email between mail servers. #Protocols #SMTP
+- LDAP (389) and LDAPS (636) query and manage directory service data like Active Directory. #Protocols #LDAP #ActiveDirectory
+- Kerberos (88) is the default authentication protocol in Active Directory environments. #Protocols #Kerberos #ActiveDirectory
+- SNMP (161) manages and monitors network devices, often left with default weak community strings. #Protocols #SNMP
+- NTP (123) synchronizes system clocks, critical for accurate log correlation. #Protocols #NTP #DFIR
+- IPsec provides authenticated, encrypted communication at the network layer, often used for VPNs. #Protocols #IPsec #VPN

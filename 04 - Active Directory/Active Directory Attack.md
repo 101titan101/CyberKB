@@ -1,0 +1,4 @@
+- Rubeus focuses specifically on Kerberos ticket abuse, including Kerberoasting, AS-REP roasting, and ticket forging. #Rubeus #ActiveDirectory #Kerberos #Tools
+- PowerView, and its successor PowerSharpV, enumerate AD objects, permissions, and trust relationships for attack path discovery. #PowerView #ActiveDirectory #Tools
+- Certipy specifically targets AD CS misconfigurations, automating discovery and abuse of vulnerable certificate templates. #Certipy #ActiveDirectory #ADCS #Tools
+- Evil-WinRM provides a convenient shell over Windows Remote Management, popular for lateral movement in AD environments. #EvilWinRM #ActiveDirectory #LateralMovement #Tools

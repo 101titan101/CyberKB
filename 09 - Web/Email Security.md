@@ -1,0 +1,8 @@
+- SPF lists which mail servers are authorized to send email on behalf of a domain. #EmailSecurity #SPF
+- DKIM cryptographically signs outgoing email to prove it wasn't altered in transit. #EmailSecurity #DKIM
+- DMARC ties SPF and DKIM together and tells receiving servers what to do with mail that fails both checks. #EmailSecurity #DMARC
+- A DMARC policy set to "none" only monitors and reports, while "reject" actually blocks spoofed mail from being delivered. #EmailSecurity #DMARC
+- Display name spoofing exploits the fact that most users only glance at the sender name, not the actual email address. #EmailSecurity #DisplayNameSpoofing
+- Look alike domains, like using a zero for the letter O, are a common typosquatting technique in phishing campaigns. #EmailSecurity #Typosquatting
+- Attachment sandboxing detonates email attachments in an isolated environment before delivery to check for malicious behavior. #EmailSecurity #Sandboxing
+- Mailbox forwarding rule abuse lets an attacker silently exfiltrate mail after gaining access to an account. #EmailSecurity #ForwardingRules #BEC

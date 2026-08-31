@@ -1,6 +1,5 @@
 - Order of volatility says acquire RAM before disk, disk before logs, and logs before backups. #OrderOfVolatility #DFIR
-- Memory acquisition tools like WinPmem, Magnet RAM Capture, and FTK Imager capture live system memory. #MemoryForensics #DFIR #Tools
-- E01 is a forensically sound, compressed disk image format, an alternative to raw dd images. #E01 #DFIR #Forensics
+- Memory acquisition tools like WinPmem, Magnet RAM Capture, and FTK Imager capture live system memory. #MemoryForensics #DFIR #Tools #WinPnem #MagnetRAM #FTKImager #RAMCapture
 - Super timelines built with Plaso or log2timeline correlate artifacts from many sources into one chronological view. #SuperTimeline #DFIR #Tools
 - Indicators of Attack (IOA) focus on behavior and intent, while Indicators of Compromise (IOC) are static artifacts. #IOA #IOC #DFIR
 - Anti-forensic techniques like timestomping, log wiping, and private browsing should always be checked for, not assumed absent. #AntiForensics #DFIR
@@ -8,5 +7,3 @@
 - Dwell time, how long an attacker was present before detection, is a key metric to track and reduce over time. #DwellTime #DFIR #IR
 - Root cause analysis should identify the actual initial access vector, not just the symptoms that triggered detection. #RootCauseAnalysis #DFIR #IR
 - Tabletop exercises test an incident response plan under simulated pressure before a real incident happens. #TabletopExercise #DFIR #IR
-- A known good baseline or golden image speeds up triage by making anomalies easier to spot. #Baseline #DFIR
-- Legal hold requirements can extend evidence retention well beyond a technical investigation's natural end. #LegalHold #DFIR

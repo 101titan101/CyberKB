@@ -10,3 +10,9 @@
 - A "what we don't know yet" section manages stakeholder expectations honestly. #Unknowns #Reporting #IR
 - Supporting evidence should be retained and referenced separately rather than embedded directly in the main report. #EvidenceHandling #Reporting #DFIR
 - Aligning report terminology to a framework like MITRE ATT&CK makes findings comparable across incidents and teams. #MITREATTACK #Reporting #Frameworks
+- - A good report answers who, what, when, where, why, and how for every key finding. #ReportingGeneral #5WsAndH
+- Severity ratings should map to a consistent, defined scale like CVSS rather than gut feel. #ReportingGeneral #CVSS
+- Findings should include clear, reproducible evidence, not just a stated conclusion. #ReportingGeneral #Evidence
+- Reports written for different audiences, executive, technical, and legal, should each get a tailored section. #ReportingGeneral #AudienceTailoring
+- A single point of contact should own report questions and follow up after delivery. #ReportingGeneral #PointOfContact
+- Version control on incident reports matters, since findings often get updated as an investigation progresses. #ReportingGeneral #VersionControl

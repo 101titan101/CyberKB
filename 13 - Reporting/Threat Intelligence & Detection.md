@@ -1,0 +1,4 @@
+- MISP (Malware Information Sharing Platform) lets organizations store, correlate, and share structured threat intelligence. #MISP #ThreatIntel #Tools
+- OpenCTI is an open source platform for organizing and visualizing threat intelligence knowledge as a connected graph. #OpenCTI #ThreatIntel #Tools
+- TheHive is an open source case management platform built to pair with MISP for coordinated incident response. #TheHive #IR #Tools
+- Wazuh is an open source security platform combining log analysis, file integrity monitoring, and vulnerability detection. #Wazuh #Tools #SIEM

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8192b6fd03e3d264",
+        "id": "08ee2ee7cd5fc43a",
         "type": "tabs",
         "children": [
           {
-            "id": "f31b91da93895b83",
+            "id": "d148e496b1f5e924",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01 - Home/Session Start & End Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Session Start & End Commands"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Credentials",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01 - Home/Session Start & End Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 - Session Start & End Commands.md",
+                "file": "01 - Home/Session Start & End Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 000 - Session Start & End Commands"
+              "title": "Outgoing links"
             }
           },
           {
@@ -162,7 +167,8 @@
               "title": "Outline of 000 - Session Start & End Commands"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,42 +183,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "simplicial-complex:Simplicial graph": false,
+      "advanced-find-and-replace:Advanced find and replace": false
     }
   },
-  "active": "f31b91da93895b83",
+  "active": "d148e496b1f5e924",
   "lastOpenFiles": [
-    "01 - Home/Home.md",
-    "07 - AWS/AWS General.md",
-    "15 - Forensics & Artifacts/Forensics and Artifacts General.md",
-    "11 - Containers/Containers General.md",
-    "02 - DFIR/DFIR General.md",
-    "03 - Windows/Windows General.md",
+    "14 - Tools/Host Tools.md",
+    "13 - Reporting/Insider Threats.md",
+    "02 - DFIR/Threat Hunting - Hosts.md",
+    "02 - DFIR/Malware Signatures.md",
     "15 - Forensics & Artifacts/Artifacts.md",
+    "14 - Tools/Network Scanning Tools.md",
+    "02 - DFIR/Baselining.md",
+    "02 - DFIR/DFIR General.md",
+    "13 - Reporting/Legal & Ethical.md",
+    "02 - DFIR/Threat Hunting - Network.md",
+    "02 - DFIR/Malware Types.md",
+    "15 - Forensics & Artifacts/Filetypes & Disk Formats.md",
+    "14 - Tools/Frameworks.md",
     "14 - Tools/Tools General.md",
-    "13 - Reporting/Reporting General.md",
-    "12 - Networking/Networking General.md",
-    "09 - Web/Web General.md",
-    "09 - Web/Cloud.md",
-    "08 - Entra ID/Entra ID General.md",
-    "10 - Wireless/Wireless General.md",
-    "06 - Azure/Azure General.md",
-    "99 - Template/Technique Name.md",
-    "Untitled.base",
+    "14 - Tools/Arkime.md",
+    "13 - Reporting/Threat Intelligence & Detection.md",
+    "04 - Active Directory/Active Directory Attack.md",
     "04 - Active Directory/Active Directory General.md",
-    "05 - Linux/Linux General.md",
-    "Linux.md",
-    "01 - Home/Session Start & End Commands.md",
-    "12 - Networking/Protocols.md",
-    "01 - Home",
-    "Internal Pentest.md",
+    "12 - Networking/Network Scanning & Enumeration.md",
+    "17 - Attack Techniques/Attack Techniques General.md",
+    "17 - Attack Techniques/Social Engineering.md",
+    "17 - Attack Techniques/Password & Credential Attacks.md",
     "Untitled.md",
-    "13 - Reporting/CVEs.md",
-    "13 - Reporting/Frameworks.md",
-    "02 - DFIR/Major APTs.md",
+    "17 - Attack Techniques",
+    "09 - Web/Web Application Testing.md",
+    "13 - Reporting/Vulnerability Management.md",
+    "15 - Forensics & Artifacts/Cryptography.md",
+    "Pasted image 20260826121333.png",
+    "Pasted image 20260826115523.png",
+    "Pasted image 20260826114321.png",
+    "Untitled.base",
+    "01 - Home",
     "15 - Forensics & Artifacts",
     "07 - AWS/General.docx",
-    "Untitled",
     "99 - Template",
     "16 - Cheatsheets",
     "14 - Tools",

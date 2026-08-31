@@ -1,0 +1,3 @@
+- WinPmem is used to capture physical memory (RAM) from Windows computers, taking a snapshot of everything currently stored in memory; more advanced that MagnetRAM #Tools #Windows #WinPmem #RAMCapture
+- Magnet RAM Capture is a GUI-based digital forensics tool to snapshot & extract Physical memory (RAM) from Windows Computers, preserving volatile data. #Tools #Forensics #Windows #MagnetRAM #RAMCapture
+- FTK Imager is a forensics tool to preview, acquire, & preserve images of hard drives, USBs, CDs, & folders, allows deleted item recovery and hex viewing; can mount existing images to explore #FTKImager #MemoryForensics #RAMCapture #Tools 

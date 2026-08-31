@@ -1,0 +1,10 @@
+- Locard's exchange principle holds that every contact leaves a trace, digital forensics is no exception. #Forensics #LocardsPrinciple
+- A forensic image is a bit for bit copy of a device, preserving even deleted and slack space data. #Forensics #Imaging
+- Hashing an image before and after analysis proves it wasn't altered during the investigation. #Forensics #Hashing #Integrity
+- Write blockers prevent any accidental modification to original evidence during acquisition. #Forensics #WriteBlockers
+- Slack space is the unused space at the end of a file's last disk cluster, which can hold leftover old data. #Forensics #SlackSpace
+- File carving recovers files from raw disk data based on file signatures, even without existing file system metadata. #Forensics #FileCarving
+- Timeline analysis correlates timestamps across many artifacts to reconstruct what happened and when. #Forensics #TimelineAnalysis
+- Anti forensic techniques like wiping, encryption, and timestomping are specifically designed to defeat this kind of analysis. #Forensics #AntiForensics
+- Forensic soundness means every step of acquisition and analysis is documented, repeatable, and doesn't alter the original evidence. #Forensics #ForensicSoundness
+- Live forensics captures volatile data on a running system, dead forensics analyzes a powered off system or image. #Forensics #LiveForensics #DeadForensics

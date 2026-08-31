@@ -1,0 +1,5 @@
+- Hashcat is a GPU accelerated password cracking tool supporting a huge range of hash types. #Hashcat #Credentials #Tools
+- John the Ripper is a flexible, CPU based password cracker often used alongside Hashcat. #JohnTheRipper #Credentials #Tools
+- Hydra brute forces login credentials across dozens of protocols, from SSH and FTP to web login forms. #Hydra #Credentials #Tools
+- CeWL generates a custom wordlist by crawling a target's own website, improving password guessing accuracy. #CeWL #Credentials #Tools
+- Responder listens on a network and poisons LLMNR, NBT-NS, and mDNS requests to capture authentication hashes. #Responder #Credentials #Tools

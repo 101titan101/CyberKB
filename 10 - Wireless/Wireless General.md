@@ -1,0 +1,10 @@
+- WPA3 improves on WPA2 with stronger encryption and protection against offline dictionary attacks. #WirelessGeneral #WPA3
+- WEP is fundamentally broken and crackable in minutes, it should never be used. #WirelessGeneral #WEP
+- Evil twin attacks set up a rogue access point mimicking a legitimate network's name. #WirelessGeneral #EvilTwin
+- Deauthentication attacks force clients off a network, often to capture a handshake for cracking. #WirelessGeneral #Deauth
+- WPS PIN brute forcing is a well known way to recover a WPA or WPA2 key. #WirelessGeneral #WPS
+- KRACK attacks exploited a flaw in the WPA2 four way handshake itself. #WirelessGeneral #KRACK
+- Rogue access points are unauthorized wireless devices connected to a trusted network. #WirelessGeneral #RogueAP
+- Bluetooth and NFC both expand the wireless attack surface beyond just Wi-Fi. #WirelessGeneral #Bluetooth
+- MAC address filtering is trivially bypassed by spoofing an allowed address and provides minimal real security. #WirelessGeneral #MACFiltering
+- Wireless intrusion detection systems can flag rogue access points and deauth floods in real time. #WirelessGeneral #WIDS

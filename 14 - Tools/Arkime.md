@@ -1,0 +1,9 @@
+- Arkime, formerly Moloch, is a full packet capture and indexing platform built on Elasticsearch for large scale session search. #Arkime #PacketCapture #Tools
+- Arkime indexes session metadata for fast search, while the raw PCAP itself is retrieved on demand for deep inspection. #Arkime #PCAP
+- The Arkime viewer lets an analyst pivot from a session summary straight into a full, Wireshark style packet view. #Arkime #Viewer
+- Session tags in Arkime let analysts label sessions, like "malware" or "reviewed", to build institutional knowledge across investigations. #Arkime #SessionTags
+- Hunt queries in Arkime can search payload content across massive volumes of historical traffic, not just metadata fields. #Arkime #Hunt #PayloadSearch
+- Arkime scales horizontally by distributing capture nodes and Elasticsearch shards, letting large networks retain full packet history. #Arkime #Scalability
+- WISE (With Intelligence, See Everything) feeds threat intel directly into Arkime so sessions auto highlight known bad indicators. #Arkime #WISE #ThreatIntel
+- Exporting a PCAP for a specific session directly from Arkime keeps evidence acquisition and analysis in a single workflow. #Arkime #DFIR 
+- SPIView (Session Profile Information View) is a network traffic analysis tool used by Arkime to break down and explore connections #Arkime #SPIView

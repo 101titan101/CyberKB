@@ -1,0 +1,7 @@
+- SQLMap automates detecting and exploiting SQL injection vulnerabilities, including full database extraction once a flaw is confirmed. #SQLMap #Web #Tools
+- OWASP ZAP is a free, open source web application scanner that can also intercept and modify traffic much like Burp Suite. #ZAP #Web #Tools
+- Nikto scans web servers for outdated software, dangerous files, and common misconfigurations. #Nikto #Web #Tools
+- Gobuster and ffuf brute force hidden directories, files, and subdomains against a target web application. #Gobuster #Ffuf #Web #Tools
+- Nuclei runs community written YAML templates to quickly scan for thousands of known vulnerabilities at once. #Nuclei #Web #Tools
+- Wfuzz fuzzes web application parameters, headers, and paths to uncover hidden functionality or injection points. #Wfuzz #Web #Tools
+- Wappalyzer fingerprints the technology stack behind a website, useful for quickly scoping an assessment. #Wappalyzer #Web #Tools

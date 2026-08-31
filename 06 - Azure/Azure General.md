@@ -1,5 +1,5 @@
 - Azure Activity Log records who changed what resource and when. #Azure #Cloud #Logs
-- NSG rules should be checked for overly permissive inbound access, especially RDP/SSH. #Azure #Networking #Cloud
+- NSG rules should be checked for overly permissive inbound access, especially RDP/SSH. #Azure #Network #Cloud
 - Storage account keys and public blob access settings are common misconfiguration risks. #Azure #Cloud #DataLeak
 - Key Vault audit logs show who accessed which secrets and keys. #Azure #Cloud #Credentials
 - Microsoft Defender for Cloud provides built in alerts worth actively reviewing. #Azure #Cloud #IR
@@ -10,13 +10,22 @@
 - Overprivileged service principals are a top cloud privilege escalation path. #Azure #IAM #PrivEsc- 
 - Managed identities remove the need for stored credentials but can be abused if granted excessive role assignments. #ManagedIdentity #Azure #IAM
 - Azure Policy enforces organizational guardrails across resources and can flag or block non compliant configurations. #AzurePolicy #Azure #Cloud
-- Just in time VM access limits standing exposure by opening RDP/SSH ports only on approved request. #JITAccess #Azure #Networking
+- Just in time VM access limits standing exposure by opening RDP/SSH ports only on approved request. #JITAccess #Azure #Network
 - Microsoft Sentinel is Microsoft's cloud native SIEM and SOAR platform. #Sentinel #Azure #IR
 - Azure AD Connect sync servers bridge on prem and cloud identity, making them a high value target. #AADConnect #Azure #ActiveDirectory
-- Azure Bastion provides browser based RDP/SSH without exposing a public IP on the VM itself. #Bastion #Azure #Networking
+- Azure Bastion provides browser based RDP/SSH without exposing a public IP on the VM itself. #Bastion #Azure #Network
 - Custom RBAC roles can accidentally grant far broader permissions than intended, always review action scopes. #RBAC #Azure #IAM
 - Resource locks (CanNotDelete/ReadOnly) prevent accidental or malicious deletion of critical resources. #Azure #Cloud
 - Log Analytics workspace retention settings determine how far back an investigation can actually look. #LogAnalytics #Azure #DFIR
 - Azure Functions can be abused for persistence and execution, similar to AWS Lambda. #AzureFunctions #Azure #Persistence
 - App registrations using certificate credentials instead of secrets can be a stealthier persistence method. #AppRegistration #Azure #EntraID #Persistence
 - Combining Conditional Access with resource level network restrictions closes gaps either control misses alone. #ConditionalAccess #Azure #EntraID
+- Azure Resource Manager (ARM) is the deployment and management layer for all Azure resources. #AzureGeneral #ARM
+- Management groups let you apply policies and RBAC across multiple subscriptions at once. #AzureGeneral #ManagementGroups
+- Azure subscriptions are the billing and access boundary beneath a tenant. #AzureGeneral #Subscriptions
+- Azure Monitor collects metrics and logs across resources for observability and alerting. #AzureGeneral #AzureMonitor
+- Network Security Groups filter traffic at the subnet or network interface level. #AzureGeneral #NSG #Network
+- Azure Firewall provides centralized, stateful network filtering for a virtual network. #AzureGeneral #AzureFirewall
+- Availability Zones and Regions provide resilience against datacenter and geographic failures. #AzureGeneral #Resilience
+- Azure Key Vault centrally stores secrets, keys, and certificates for applications. #AzureGeneral #KeyVault #Credentials
+- Azure Blueprints package policies, RBAC, and templates for repeatable, compliant environment deployment. #AzureGeneral #Blueprints

@@ -3,3 +3,14 @@
 -  Threat intel feeds and IOC matching should supplement, not replace, behavioral hunting. #ThreatHunting #ThreatIntel
 - YARA rules help hunt for malware based on file patterns and byte signatures. #ThreatHunting #Tools #Malware
 - Sigma rules provide a vendor agnostic way to write and share detection logic. #ThreatHunting #Tools #DetectionEngineering
+- - Wireshark captures and analyzes network packets down to the individual byte. #Tools #Wireshark #Network
+- Nmap scans networks to discover hosts, open ports, and running services. #Tools #Nmap #Network
+- Burp Suite intercepts and manipulates web traffic for application security testing. #Tools #BurpSuite #Web
+- Splunk and the Elastic Stack are common platforms for centralizing and searching log data. #Tools #Splunk #Elastic #SIEM
+- Autopsy and EnCase are widely used digital forensics platforms for disk analysis. #Tools #Autopsy #EnCase #DFIR
+- Volatility performs memory forensics, extracting processes, network connections, and injected code from a RAM image. #Tools #Volatility #DFIR
+- Velociraptor and KAPE both enable fast, scalable endpoint artifact collection during an investigation. #Tools #Velociraptor #KAPE #DFIR
+- BloodHound visualizes Active Directory attack paths using graph relationships. #Tools #BloodHound #ActiveDirectory
+- Impacket is a collection of Python tools for working with network protocols, heavily used in AD attacks. #Tools #Impacket #ActiveDirectory
+- OSQuery lets defenders query endpoint state using SQL like syntax. #Tools #OSQuery #ThreatHunting
+- Ghidra and IDA Pro are the leading tools for reverse engineering and disassembling malware. #Tools #Ghidra #IDAPro #ReverseEngineering

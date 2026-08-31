@@ -1,7 +1,15 @@
-- Event ID 4624/4625 - successful/failed logons.
-- Event ID 4688 - process creation (enable command-line auditing).
-- Event ID 4720/4732/4728 - new accounts and privileged group membership changes.
-- Sysmon Event ID 1 - process creation with hashes and parent process.
-- Event ID 4104 - PowerShell script block logging.
-- Event ID 4769 with RC4 encryption is a Kerberoasting red flag.
-- Event ID 4662 with replication GUIDs can indicate DCSync activity.
+- 4624 is a successful logon, 4625 is a failed logon. #WinEventIDs #Windows
+- 4688 is process creation, enable command line auditing for full value. #WinEventIDs #Windows
+- 4720 is user account created, 4726 is user account deleted. #WinEventIDs #Windows
+- 4728, 4732, and 4756 log a member added to a global, local, or universal group. #WinEventIDs #Windows #ActiveDirectory
+- 4768 is a Kerberos TGT requested, 4769 is a Kerberos service ticket requested. #WinEventIDs #Kerberos
+- 4740 is an account locked out, 4767 is an account unlocked. #WinEventIDs #Windows
+- 4672 is special privileges assigned to a new logon, an admin logon indicator. #WinEventIDs #Windows
+- 4648 is a logon using explicit credentials, common in lateral movement. #WinEventIDs #LateralMovement
+- 4662 is an operation performed on an object, watch for replication GUIDs tied to DCSync. #WinEventIDs #ActiveDirectory
+- 1102 is the security audit log cleared, a major red flag. #WinEventIDs #AntiForensics
+- 4697 is a service installed, common for persistence. #WinEventIDs #Persistence
+- 4698 is a scheduled task created. #WinEventIDs #Persistence
+- 5140 and 5145 log network share access, useful for tracking SMB activity. #WinEventIDs #Network
+- 4719 is the system audit policy changed. #WinEventIDs #Windows
+- 4104 is PowerShell script block logging, capturing deobfuscated code. #WinEventIDs #PowerShell

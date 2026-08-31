@@ -16,3 +16,16 @@
 - Token impersonation steals another user's access token to escalate privileges. #Windows #PrivEsc
 - Event ID 1102, audit log cleared, is a major red flag for anti forensics. #Windows #EventIDs #AntiForensics
 - Autoruns and Autorunsc quickly surface anomalies across all startup locations. #Windows #Tools #Persistence
+- HKLM\SYSTEM\CurrentControlSet\Services lists all installed services and their configuration. #WindowsGeneral #Registry #Services
+- The SAM database stores local account password hashes on a Windows machine. #WindowsGeneral #SAM #Credentials
+- LSASS (Local Security Authority Subsystem Service) handles authentication and holds credentials in memory. #WindowsGeneral #LSASS #Credentials
+- Windows Defender Application Control (WDAC) can restrict which binaries are allowed to run. #WindowsGeneral #ApplicationControl
+- AppLocker provides application allowlisting to block unauthorized software execution. #WindowsGeneral #AppLocker
+- Windows Management Instrumentation (WMI) is used for both legitimate admin tasks and stealthy attacker activity. #WindowsGeneral #WMI
+- The Windows Event Log service can itself be a target for tampering, monitor its own health. #WindowsGeneral #Logging
+- BitLocker provides full disk encryption, but its recovery keys must be protected separately. #WindowsGeneral #BitLocker #Encryption
+- Windows Defender Credential Guard isolates LSASS secrets inside a virtualized container. #WindowsGeneral #CredentialGuard
+- Local Security Policy and Group Policy both configure security settings, GPO applies at scale. #WindowsGeneral #GPO
+- The Recycle Bin can still hold recoverable deleted files after a user deletes them. #WindowsGeneral #Forensics
+- NTFS alternate data streams can hide data attached to an otherwise normal looking file. #WindowsGeneral #ADS #AntiForensics
+- Windows Defender Attack Surface Reduction (ASR) rules block common malware behaviors like Office spawning child processes. #WindowsGeneral #ASR

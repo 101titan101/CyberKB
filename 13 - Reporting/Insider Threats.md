@@ -1,0 +1,7 @@
+- Unusual access patterns, like an employee suddenly reaching systems far outside their normal job function, are a key insider threat signal. #InsiderThreats #AnomalousAccess
+- Data staging, compressing or copying large volumes of sensitive files shortly before resignation, is a classic pre departure indicator. #InsiderThreats #DataStaging
+- DLP tools monitor, and can block, sensitive data leaving through email, USB, or cloud upload. #InsiderThreats #DLP
+- Access should be revoked the moment an employee is offboarded, delayed deprovisioning is one of the most common insider risk gaps. #InsiderThreats #Offboarding
+- Privileged users should have their activity logged and reviewed just as closely as any external facing system. #InsiderThreats #PrivilegedUsers
+- UEBA (User and Entity Behavior Analytics) baselines normal user behavior and flags statistically significant deviations automatically. #InsiderThreats #UEBA
+- Not all insider risk is malicious, accidental data exposure from a careless or undertrained employee is far more common than sabotage. #InsiderThreats #AccidentalInsider

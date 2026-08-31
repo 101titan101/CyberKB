@@ -19,3 +19,13 @@
 - Cross tenant access settings need review to prevent unwanted external trust. #EntraID #Cloud #IAM
 - Break glass accounts should be used rarely, and any usage should be investigated immediately. #EntraID #IAM #IR
 - MFA method registration changes can indicate an attacker adding their own authentication factor. #EntraID #Credentials #IR
+- A tenant is the dedicated instance of Entra ID for an organization. #EntraIDGeneral #Tenant
+- Users, groups, and devices are the core identity objects managed in Entra ID. #EntraIDGeneral #Objects
+- App registrations represent an application's identity for authentication and API access. #EntraIDGeneral #AppRegistration
+- Enterprise applications represent an instance of an app registration used within a specific tenant. #EntraIDGeneral #EnterpriseApp
+- Dynamic groups automatically add or remove members based on defined rules. #EntraIDGeneral #DynamicGroups
+- Entra ID roles, like Global Administrator, control administrative access to the directory itself. #EntraIDGeneral #Roles
+- Privileged Identity Management (PIM) provides just in time, time bound elevation of privileged roles. #EntraIDGeneral #PIM
+- Self service password reset lets users regain account access without help desk involvement. #EntraIDGeneral #SSPR
+- Named locations in Conditional Access let policies treat trusted and untrusted networks differently. #EntraIDGeneral #NamedLocations
+- Entra Connect Health monitors the on premises sync infrastructure for issues. #EntraIDGeneral #ConnectHealth

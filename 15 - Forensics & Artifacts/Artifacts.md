@@ -5,4 +5,17 @@
 - Volume Shadow Copies can hold older versions of encrypted/deleted files #Windows #DFIR #Ransomware
 - Browser history and download artifacts often reveal initial access #DFIR #Forensics #Web
 - Memory forensics (Volatility) can recover encryption keys and injected code #DFIR #Forensics #Malware
-- Timestomping alters file timestamps to blend in or confuse a timeline #DFIR #Forensics #AntiForensics
+- Timestomping alters file timestamps to blend in or confuse a timeline #DFIR #Forensics #AntiForensics 
+- Prefetch files record what programs ran and how often, even after the program is deleted. #Artifacts #Prefetch #Windows
+- Shellbags record folder view settings and reveal browsing history in Windows Explorer. #Artifacts #Shellbags #Windows
+- Amcache and Shimcache both record evidence of program execution on Windows. #Artifacts #Amcache #Shimcache #Windows
+- Jump lists show a user's recently and frequently accessed files per application. #Artifacts #JumpLists #Windows
+- The $MFT, or Master File Table, records metadata for every file on an NTFS volume. #Artifacts #MFT #NTFS
+- The $UsnJrnl, or USN Journal, tracks changes to files and directories on an NTFS volume over time. #Artifacts #UsnJrnl #NTFS
+- Browser artifacts, like history, downloads, and cookies, often reveal initial access and post compromise activity. #Artifacts #Browser #DFIR
+- LNK files, or shortcuts, can reveal file paths and even removable media used by a suspect. #Artifacts #LNK #Windows
+- Windows Registry hives like NTUSER.DAT hold per user configuration and activity artifacts. #Artifacts #Registry #Windows
+- Linux bash_history and shell history files record commands a user has run. #Artifacts #BashHistory #Linux
+- Volume Shadow Copies can preserve older file versions, useful for ransomware recovery investigations. #Artifacts #VSS #Windows
+- Cloud provider audit logs, like CloudTrail, Azure Activity Log, and Entra sign in logs, are the primary cloud forensic artifact. #Artifacts #CloudLogs #Cloud
+- Memory acquisition tools like WinPmem, Magnet RAM Capture, and FTK Imager capture live system memory. #MemoryForensics #DFIR #Tools #WinPnem #MagnetRAM #FTKImager #RAMCapture

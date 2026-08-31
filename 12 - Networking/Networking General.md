@@ -1,14 +1,21 @@
-- TCP's three way handshake (SYN, SYN ACK, ACK) establishes a connection before data transfer. #Networking #Protocols
-- Port 22 is SSH, one of the most targeted services for brute force attacks. #Networking #Linux #Credentials
-- Port 445 is SMB, commonly abused for lateral movement and worm propagation. #Networking #Windows #LateralMovement
-- Port 3389 is RDP, a frequent initial access vector when exposed to the internet. #Networking #Windows #InitialAccess
-- Port 389/636 is LDAP/LDAPS, used for directory queries and often abused for enumeration. #Networking #ActiveDirectory
-- DNS tunneling smuggles data through DNS queries to bypass firewalls. #Networking #C2 #Exfiltration
-- ARP spoofing lets an attacker sit in the middle of local traffic. #Networking #MITM
-- LLMNR and NBT NS poisoning capture hashes on the local network via spoofed name resolution. #Networking #Credentials #ActiveDirectory
-- NetFlow and VPC Flow Logs show who talked to whom even without payload visibility. #Networking #Cloud #DFIR
-- Beaconing traffic with regular jittered intervals is a classic C2 signature. #Networking #C2 #ThreatIntel
-- TLS inspection is often needed to catch encrypted C2 traffic but breaks some monitoring assumptions. #Networking #C2
-- Egress filtering restricts outbound traffic and can break basic C2 channels. #Networking #IR
-- VLANs and network segmentation limit how far an attacker can move laterally. #Networking #LateralMovement
-- IDS and IPS signatures should be paired with behavioral detection, not relied on alone. #Networking #IR
+- TCP's three way handshake (SYN, SYN ACK, ACK) establishes a connection before data transfer. #Network #Protocols #Network 
+- Port 22 is SSH, one of the most targeted services for brute force attacks. #Network #Linux #Credentials #Network 
+- Port 445 is SMB, commonly abused for lateral movement and worm propagation. #Network #Windows #LateralMovement #Network 
+- Port 3389 is RDP, a frequent initial access vector when exposed to the internet. #Network #Windows #InitialAccess #Network 
+- Port 389/636 is LDAP/LDAPS, used for directory queries and often abused for enumeration. #Network #ActiveDirectory #Network 
+- DNS tunneling smuggles data through DNS queries to bypass firewalls. #Network #C2 #Exfiltration #Network 
+- ARP spoofing lets an attacker sit in the middle of local traffic. #Network #MITM #Network 
+- LLMNR and NBT NS poisoning capture hashes on the local network via spoofed name resolution. #Network #Credentials #ActiveDirectory #Network 
+- NetFlow and VPC Flow Logs show who talked to whom even without payload visibility. #Network #Cloud #DFIR #Network 
+- Beaconing traffic with regular jittered intervals is a classic C2 signature. #Network #C2 #ThreatIntel #Network 
+- TLS inspection is often needed to catch encrypted C2 traffic but breaks some monitoring assumptions. #Network #C2
+- Egress filtering restricts outbound traffic and can break basic C2 channels. #Network #IR
+- VLANs and network segmentation limit how far an attacker can move laterally. #Network #LateralMovement
+- IDS and IPS signatures should be paired with behavioral detection, not relied on alone. #Network #IR
+- - The OSI model has seven layers, from physical up through application. #NetworkGeneral #OSIModel
+- The TCP/IP model condenses networking into four practical layers used in real world implementations. #NetworkGeneral #TCPIP
+- Subnetting divides a network into smaller segments to control traffic flow and limit blast radius. #NetworkGeneral #Subnetting
+- NAT (Network Address Translation) lets many internal devices share a single public IP address. #NetworkGeneral #NAT
+- A default gateway is the router traffic uses to leave the local network. #NetworkGeneral #Gateway
+- VPNs create an encrypted tunnel across an untrusted network like the internet. #NetworkGeneral #VPN
+- Zero trust networking assumes no implicit trust based on network location alone. #NetworkGeneral #ZeroTrust

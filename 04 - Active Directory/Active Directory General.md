@@ -42,3 +42,4 @@
 - Read only domain controllers limit credential exposure at less secure branch locations. #RODC #ActiveDirectory
 - The AD Recycle Bin allows recovery of deleted objects, useful in both IR and accidental deletion cases. #ADRecycleBin #ActiveDirectory #DFIR
 - Delegation abuse chains often move from unconstrained to constrained to resource based, each worth hunting separately. #Delegation #ActiveDirectory #PrivEsc
+- CrackMapExec, and its successor NetExec, automate credential validation and enumeration across many hosts in a Windows network at once. #CrackMapExec #NetExec #ActiveDirectory #Tools

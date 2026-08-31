@@ -1,0 +1,7 @@
+- Pretexting invents a false scenario, like posing as IT support, to manipulate a target into giving up information or access. #SocialEngineering #Pretexting
+- Vishing is voice phishing, using a phone call instead of email to pressure a target into acting quickly. #SocialEngineering #Vishing
+- Tailgating follows an authorized person through a secure door without using any credentials of one's own. #SocialEngineering #Tailgating #PhysicalSecurity
+- Quid pro quo offers something in exchange, like fake tech support help, to get a target to comply with a request. #SocialEngineering #QuidProQuo
+- Authority and urgency are the two psychological levers social engineers rely on most, both designed to short circuit careful thinking. #SocialEngineering #Psychology
+- Baiting leaves a malicious USB drive or download somewhere a curious target is likely to find and use it. #SocialEngineering #Baiting
+- Security awareness training is better measured by simulated phishing click rates over time than by training module completion. #SocialEngineering #Awareness

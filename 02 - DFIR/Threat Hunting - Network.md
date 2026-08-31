@@ -1,0 +1,47 @@
+- Hunt for beaconing patterns, regular interval callbacks with slight jitter to external IPs. #ThreatHunting #C2 #Network
+- Look for DNS requests to newly registered or algorithmically generated domains. #ThreatHunting #DNS #C2
+- Flag rare parent child process relationships, like Word spawning PowerShell. #ThreatHunting #Windows #DFIR
+- Hunt for encoded or obfuscated PowerShell command lines. #ThreatHunting #Windows #EDREvasion
+- Search for LOLBins used in unusual contexts, like certutil downloading files. #ThreatHunting #Windows #EDREvasion
+- Review authentication logs for logons at odd hours or from unusual geographies. #ThreatHunting #Credentials #DFIR
+- Hunt for lateral movement indicators like PsExec, WMI, or remote scheduled tasks. #ThreatHunting #LateralMovement #Windows
+- Look for large or unusual outbound data transfers, a sign of possible exfiltration. #ThreatHunting #Exfiltration #Network
+- Threat intel feeds and IOC matching should supplement, not replace, behavioral hunting. #ThreatHunting #ThreatIntel
+- YARA rules help hunt for malware based on file patterns and byte signatures. #ThreatHunting #Tools #Malware
+- Sigma rules provide a vendor agnostic way to write and share detection logic. #ThreatHunting #Tools #DetectionEngineering
+- Hunt for new local admin accounts or unexpected privilege escalation. #ThreatHunting #PrivEsc #Windows
+- Check for disabled or tampered security tools, like a stopped EDR service. #ThreatHunting #EDREvasion #IR
+- Correlate EDR, firewall, and identity logs together, single source hunting misses a lot. #ThreatHunting #DFIR
+- Unusual outbound connections to rare or newly seen countries can indicate C2 activity. #IOA #Network #C2
+- A spike in failed logons followed by a success can indicate a successful brute force or password spray. #IOA #Credentials #ActiveDirectory
+- Disabled logging or cleared event logs, Event ID 1102, strongly suggests anti forensic activity. #IOA #AntiForensics #Windows
+- New scheduled tasks or services created outside change windows are worth investigating. #IOA #Persistence #Windows
+- Processes running from temp directories or unusual paths are a common red flag. #IOA #Malware #Windows
+- Unexpected use of remote access tools like AnyDesk or TeamViewer can indicate attacker tooling. #IOA #RemoteAccess #ThreatHunting
+- Multiple failed MFA prompts followed by one approval can indicate an MFA fatigue attack. #IOA #EntraID #Phishing
+- Sudden encryption of large volumes of files is the clearest sign of active ransomware. #IOA #Ransomware #DFIR
+- Data staged in an unusual location, like a compressed archive in a temp folder, suggests exfiltration prep. #IOA #Exfiltration #DFIR
+- Service accounts logging in interactively is abnormal and often indicates compromise. #IOA #Credentials #ActiveDirectory
+- New OAuth app registrations with broad permissions are a modern cloud compromise signal. #IOA #Cloud #EntraID
+- Low and slow, encrypted C2 traffic with consistent jitter is a hallmark of a patient, skilled attacker. #IOA #C2 #ThreatIntel
+- The Pyramid of Pain ranks IOCs by how much effort it costs an attacker to change them. #PyramidOfPain #ThreatHunting
+- Pyramid of Pain Diagram: #PyramidOfPain #TTP
+![[Pasted image 20260826114321.png]]
+- Hash values sit at the bottom of the Pyramid of Pain, trivial for an attacker to change. #PyramidOfPain #ThreatHunting #Hashing
+- TTPs sit at the top of the Pyramid of Pain, the hardest and most costly for an attacker to change. #PyramidOfPain #ThreatHunting #TTP
+- Stack counting compares a value's frequency across the environment to spot rare outliers. #StackCounting #ThreatHunting
+- Least frequency of occurrence analysis flags processes or connections that appear only once or twice. #LFO #ThreatHunting
+- Hunting should be a continuous, hypothesis driven cycle, not a one time sweep. #ThreatHunting #ThreatHuntingCycle
+- The MITRE ATT&CK Navigator helps visualize hunting coverage across tactics and techniques. #ATTACKNavigator #ThreatHunting #MITREATTACK
+- Threat hunters should assume breach and hunt as if an adversary is already present. #AssumeBreach #ThreatHunting
+- Detection engineering should turn every successful hunt into a permanent, automated detection. #DetectionEngineering #ThreatHunting
+- Flow data like NetFlow or IPFIX gives lightweight metadata (who talked to whom), while full packet capture gives complete content at a real storage cost. #NetworkThreatHunting #NetFlow #PCAP
+- JA3 and JA3S fingerprint the TLS client and server handshake parameters, helping identify malicious tooling even inside encrypted traffic. #NetworkThreatHunting #JA3 #TLS
+- RITA (Real Intelligence Threat Analytics) analyzes Zeek logs to automatically surface beaconing behavior and unusually long connections. #NetworkThreatHunting #RITA #Zeek
+- Passive DNS records historical domain to IP mappings, useful for spotting infrastructure reuse across separate campaigns. #NetworkThreatHunting #PassiveDNS #ThreatIntel
+- Proxy and web gateway logs reveal outbound destinations even in environments where full packet capture isn't feasible. #NetworkThreatHunting #ProxyLogs
+- Unusually long lived connections, sessions open for many hours or days, are a classic C2 or tunneling indicator. #NetworkThreatHunting #LongConnections #C2
+- A sudden change in a host's normal outbound traffic volume or destination country is worth investigating even without a known bad IOC. #NetworkThreatHunting #BaselineDrift
+- Freshly issued TLS certificates, especially ones issued minutes before first use, can indicate throwaway, purpose built C2 infrastructure. #NetworkThreatHunting #TLSCertificates #C2
+- East west traffic between internal hosts deserves as much scrutiny as north south traffic to the internet, since lateral movement lives there. #NetworkThreatHunting #LateralMovement
+- NetFlow records lack payload content but scale far better than full packet capture for long term, historical hunting. #NetworkThreatHunting #NetFlow

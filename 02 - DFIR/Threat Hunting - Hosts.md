@@ -1,0 +1,9 @@
+- Unsigned or oddly signed binaries running from user writable directories are a strong host level red flag. #HostThreatHunting #CodeSigning
+- DLL search order hijacking plants a malicious DLL earlier in the search path so a legitimate application loads it unknowingly. #HostThreatHunting #DLLSearchOrder
+- An orphaned process with no parent, or one reparented to explorer.exe or svchost.exe, often points to process injection or hollowing. #HostThreatHunting #ProcessTree #ProcessInjection
+- Comparing Autoruns output across a fleet of hosts can surface a single outlier machine with a persistence mechanism the rest don't have. #HostThreatHunting #Autoruns
+- A process holding an active network connection but no matching entry on disk points toward in memory execution or injection. #HostThreatHunting #ProcessInjection
+- Host based firewall logs can reveal outbound connection attempts blocked by policy, often the first sign of malware trying to call home. #HostThreatHunting #HostFirewall
+- Comparing installed services, scheduled tasks, and startup items against a golden image highlights drift and potential persistence. #HostThreatHunting #GoldenImage
+- EDR telemetry showing a process attempting to access LSASS memory is worth investigating even when the attempt itself was blocked. #HostThreatHunting #LSASS
+- One recently modified file sitting among hundreds of untouched, years old files in the same folder can reveal a quietly dropped payload. #HostThreatHunting #Timestamps

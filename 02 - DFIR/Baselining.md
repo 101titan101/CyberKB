@@ -1,0 +1,2 @@
+- A known good baseline or golden image speeds up triage by making anomalies easier to spot. #Baseline #DFIR
+- Memory acquisition tools like WinPmem, Magnet RAM Capture, and FTK Imager capture live system memory. #MemoryForensics #DFIR #Tools #WinPnem #MagnetRAM #FTKImager #RAMCapture

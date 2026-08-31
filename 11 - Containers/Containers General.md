@@ -10,3 +10,10 @@
 - Sidecar or init container tampering can serve as a stealthy, less obvious persistence method. #SidecarTampering #Kubernetes #Persistence
 - imagePullSecrets stored in a cluster are a common target for lateral movement into private registries. #ImagePullSecrets #Kubernetes #Containers
 - Namespace isolation in Kubernetes is a logical boundary, not a hard security boundary, by default. #Namespaces #Kubernetes #Containers
+- - A container shares the host OS kernel, unlike a virtual machine which virtualizes hardware. #ContainersGeneral #Docker
+- Images are built in layers, and a compromised base image poisons every container built from it. #ContainersGeneral #Images
+- Container registries should require authentication and image signing to prevent tampering. #ContainersGeneral #Registries
+- Least privilege for containers means running as a non root user whenever possible. #ContainersGeneral #LeastPrivilege
+- Resource limits on CPU and memory prevent a single compromised or runaway container from starving the host. #ContainersGeneral #ResourceLimits
+- Orchestrators like Kubernetes add a large, powerful control plane that itself becomes a high value target. #ContainersGeneral #Kubernetes
+- Immutable infrastructure treats containers as disposable, replacing rather than patching them in place. #ContainersGeneral #ImmutableInfrastructure

@@ -1,0 +1,18 @@
+- MITRE ATT&CK maps adversary behavior to tactics and techniques, common IR reference #ThreatIntel #IR #Frameworks
+- The Cyber Kill Chain breaks an attack into stages from recon to actions on objectives #ThreatIntel #IR #Frameworks
+- The Pyramid of Pain ranks IOCs by how much pain they cause an attacker to change #ThreatIntel #IR
+- NIST 800-61 is the standard IR lifecycle: prepare, detect, contain, eradicate, recover, lessons learned #IR #Frameworks
+- Purple teaming combines red and blue team efforts to validate detections in real time #IR #ThreatIntel
+- - MITRE ATT&CK organizes adversary behavior into tactics, techniques, and sub-techniques. #MITREATTACK #Frameworks
+- The Cyber Kill Chain breaks an attack into stages from reconnaissance to actions on objectives. #CyberKillChain #Frameworks
+- The Diamond Model analyzes intrusions through four core features: adversary, capability, infrastructure, and victim. #DiamondModel #Frameworks
+- NIST 800-61 defines the standard incident response lifecycle: prepare, detect, contain, eradicate, recover, lessons learned. #NIST80061 #Frameworks #IR
+- The NIST Cybersecurity Framework organizes security around Identify, Protect, Detect, Respond, and Recover. #NISTCSF #Frameworks
+- ISO 27001 is the international standard for information security management systems. #ISO27001 #Frameworks
+- CIS Controls provide a prioritized, practical list of security safeguards for organizations. #CISControls #Frameworks
+- The CIA triad, confidentiality, integrity, and availability, underlies nearly all security decision making. #CIATriad #Frameworks
+- STRIDE is a threat modeling framework covering spoofing, tampering, repudiation, info disclosure, DoS, and elevation of privilege. #STRIDE #Frameworks #ThreatModeling
+- The Zero Trust model requires continuous verification instead of implicit trust inside a network perimeter. #ZeroTrust #Frameworks
+- Metasploit Framework organizes exploits, payloads, and post exploitation modules into one extensible platform. #Metasploit #Tools #Exploitation #Frameworks 
+- Empire is a post exploitation framework built around PowerShell and Python agents. #Empire #Tools #C2 #Frameworks 
+- Havoc is a modern, open source C2 framework built as a free alternative to commercial red team tools. #Havoc #Tools #C2 #Frameworks 

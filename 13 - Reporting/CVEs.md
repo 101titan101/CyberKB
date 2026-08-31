@@ -1,3 +1,13 @@
 - ZeroLogon (CVE-2020-1472) abuses a flaw in Netlogon to reset a domain controller's machine account password. #ZeroLogon #ActiveDirectory #Vulnerabilities
 - PrintNightmare (CVE-2021-34527) exploits the print spooler service for remote code execution or local privilege escalation. #PrintNightmare #ActiveDirectory #Vulnerabilities
 - NoPac (CVE-2021-42278/42287) chains sAMAccountName spoofing to impersonate a domain controller. #NoPac #ActiveDirectory #Vulnerabilities
+- CVE-2017-0144, EternalBlue, is the SMBv1 vulnerability behind WannaCry and NotPetya. #EternalBlue #CVE
+- CVE-2021-44228, Log4Shell, is a critical remote code execution flaw in the widely used Log4j logging library. #Log4Shell #CVE
+- CVE-2014-0160, Heartbleed, let attackers read protected memory from vulnerable OpenSSL servers. #Heartbleed #CVE
+- CVE-2017-5638, an Apache Struts flaw, enabled remote code execution and was behind the Equifax breach. #ApacheStruts #CVE
+- CVE-2019-0708, BlueKeep, is a wormable RDP vulnerability requiring no authentication. #BlueKeep #CVE
+- CVE-2020-0601, CurveBall, let attackers spoof trusted certificate signatures on Windows. #CurveBall #CVE
+- CVE-2021-34527, PrintNightmare, exploits the Windows print spooler for RCE or privilege escalation. #PrintNightmare #CVE
+- CVE-2020-1472, ZeroLogon, allows resetting a domain controller's machine account password. #ZeroLogon #CVE
+- CVE-2023-4966, Citrix Bleed, allowed session token theft from vulnerable Citrix NetScaler appliances. #CitrixBleed #CVE
+- CVE-2021-26855, ProxyLogon, is a chained Exchange Server vulnerability enabling remote code execution. #ProxyLogon #CVE

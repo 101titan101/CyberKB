@@ -1,0 +1,34 @@
+- Living off the land means using built in OS tools instead of malware to stay stealthy #Windows #Linux
+- Pass the hash lets an attacker authenticate with a stolen hash, no plaintext password needed #AD #Windows #Credentials
+- Pass the ticket reuses a stolen Kerberos ticket to impersonate a user #AD #Kerberos #LateralMovement
+- Kerberoasting extracts service account hashes via TGS requests then cracks them offline #AD #Kerberos #Credentials
+- AS REP roasting targets accounts with Kerberos pre auth disabled #AD #Kerberos #Credentials
+- DCSync abuses replication rights to pull password hashes straight from a DC #AD #Credentials #Persistence
+- Golden ticket forges a TGT using the krbtgt hash, gives near unlimited domain access #AD #Kerberos #Persistence
+- Silver ticket forges a service ticket for a specific service, quieter than a golden ticket #AD #Kerberos #Persistence
+- Pass the certificate abuses AD CS misconfigurations to get domain admin #AD #ADCS #Credentials
+- LLMNR/NBT-NS poisoning captures hashes on the local network via spoofed name resolution #Network #Credentials #AD
+- Process injection hides malicious code inside a legitimate process #Windows #Malware
+- DLL sideloading tricks a legit app into loading a malicious DLL #Windows #Malware #Persistence
+- Token impersonation steals another user's access token to escalate privileges #Windows #PrivEsc
+- Credential dumping from LSASS memory is one of the most common post exploitation steps #Windows #Credentials #DFIR
+- Phishing remains the most common initial access vector across nearly all major breaches. #Phishing #AttackTechniques #InitialAccess
+- Spear phishing targets a specific individual with tailored, more convincing content. #SpearPhishing #AttackTechniques #Phishing
+- Watering hole attacks compromise a website the target is known to visit rather than attacking them directly. #WateringHole #AttackTechniques #InitialAccess
+- Supply chain attacks compromise a trusted vendor or software update to reach the real target. #SupplyChain #AttackTechniques #InitialAccess
+- Business email compromise (BEC) impersonates executives or vendors to redirect payments or steal data. #BEC #AttackTechniques #Phishing
+- Password spraying tries one common password across many accounts to avoid lockout thresholds. #PasswordSpraying #AttackTechniques #Credentials
+- Credential stuffing reuses breached username and password pairs against other services. #CredentialStuffing #AttackTechniques #Credentials
+- Living off the land uses legitimate built in tools to blend malicious activity with normal admin work. #LOTL #AttackTechniques #EDREvasion
+- Lateral movement is the process of moving from an initial foothold to other systems in the environment. #LateralMovement #AttackTechniques
+- Privilege escalation raises an attacker's access from a limited account to admin or system level. #PrivEsc #AttackTechniques
+- Persistence techniques ensure an attacker keeps access even after a reboot or password change. #Persistence #AttackTechniques
+- Defense evasion covers any technique used to avoid detection by security tools. #DefenseEvasion #AttackTechniques #EDREvasion
+- Command and control is the channel an attacker uses to remotely control compromised systems. #C2 #AttackTechniques
+- Data exfiltration is the actual theft of data out of the victim environment. #Exfiltration #AttackTechniques
+- Double extortion combines data encryption with a threat to leak stolen data publicly. #DoubleExtortion #AttackTechniques #Ransomware
+- Island hopping uses a trusted partner or MSP's (Managed Service Provider) access to reach a harder target. #IslandHopping #AttackTechniques #SupplyChain #MSP
+- Man-in-the-Middle (MITM) attacks occur when an attacker silently sits between 2 devices to steal/alter data between them #MITM #Man-in-the-Middle #ManintheMiddle #AttackTechniques #Tampering
+- Man-in-the-Middle Diagram: #MITM #Man-in-the-Middle #ManintheMiddle ![[Pasted image 20260826115523.png]]
+- Cross-Site Scripting (XSS) is a client-side code injection vulnerability where an attacker inserts malicious scripts into a trusted website which a user's browser executes #XSS #Cross-SiteScripting #CrossSiteScripting #AttackTechniques #BrowserVulnerabilities #Codeinjection
+- Cross-Site Scripting (XSS) Diagram:#XSS #Cross-SiteScripting #CrossSiteScripting ![[Pasted image 20260826121333.png]]

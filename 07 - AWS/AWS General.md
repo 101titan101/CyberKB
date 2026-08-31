@@ -2,8 +2,8 @@
 - IAM changes like new users, roles, or access keys deserve constant monitoring. #AWS #IAM #Cloud
 - Misconfigured S3 bucket policies remain one of the most common cloud data leak causes. #AWS #Cloud #DataLeak
 - GuardDuty provides cheap automated threat detection and should always be enabled. #AWS #Cloud #IR
-- Security Groups open to 0.0.0.0/0 on sensitive ports are a common misconfiguration. #AWS #Networking #Cloud
-- VPC Flow Logs reveal anomalous network traffic between resources. #AWS #Networking #DFIR
+- Security Groups open to 0.0.0.0/0 on sensitive ports are a common misconfiguration. #AWS #Network #Cloud
+- VPC Flow Logs reveal anomalous network traffic between resources. #AWS #Network #DFIR
 - Root account activity should be near zero, any usage is a red flag. #AWS #IAM #Cloud
 - AssumeRole abuse is a common privilege escalation and lateral movement path in AWS. #AWS #IAM #PrivEsc
 - Lambda functions should be checked for unauthorized code modifications. #AWS #Cloud #Malware

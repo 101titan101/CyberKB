@@ -15,5 +15,14 @@
 - Directory traversal lets an attacker read files outside the intended web root. #Web #Vulnerabilities
 - Exposed .git or .env files often leak credentials and source code. #Web #DataLeak #Credentials
 - Security headers like CSP and HSTS reduce common client side attack surface. #Web #IR
-- WAFs help filter known malicious patterns but shouldn't be the only layer of defense. #Web #Networking #IR
+- WAFs help filter known malicious patterns but shouldn't be the only layer of defense. #Web #Network #IR
 - API endpoints with broken object level authorization (BOLA) are a common modern web risk. #Web #Vulnerabilities #Cloud
+- The shared responsibility model splits security duties between the cloud provider and the customer. #Cloud #SharedResponsibility
+- IaaS gives the most customer control and responsibility, SaaS gives the least. #Cloud #IaaS #SaaS #PaaS
+- Cloud misconfiguration remains one of the leading causes of cloud data breaches. #Cloud #Misconfiguration
+- CSPM (Cloud Security Posture Management) tools continuously scan for misconfigurations across cloud accounts. #Cloud #CSPM
+- CIEM (Cloud Infrastructure Entitlement Management) focuses specifically on excessive cloud identity permissions. #Cloud #CIEM #IAM
+- Multi cloud environments multiply the number of identity and configuration models a defender must track. #Cloud #MultiCloud
+- Cloud native logging is often off by default and must be explicitly enabled per service. #Cloud #Logging
+- Ephemeral cloud resources can disappear before a full forensic investigation completes, so continuous logging matters. #Cloud #DFIR
+- Infrastructure as Code, like Terraform or CloudFormation, can bake in misconfigurations at scale if not reviewed. #Cloud #IaC

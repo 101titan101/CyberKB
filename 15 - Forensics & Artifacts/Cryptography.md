@@ -1,0 +1,8 @@
+- Symmetric encryption uses one shared key for both encryption and decryption, and is much faster than asymmetric. #Cryptography #SymmetricEncryption
+- Asymmetric encryption uses a public and private key pair, solving the key distribution problem symmetric encryption has. #Cryptography #AsymmetricEncryption
+- Hashing is one way and used for integrity, encryption is reversible and used for confidentiality, the two aren't interchangeable. #Cryptography #Hashing
+- A digital signature uses a sender's private key to prove authenticity and integrity, verifiable by anyone holding the public key. #Cryptography #DigitalSignature
+- PKI, or Public Key Infrastructure, is the system of certificate authorities, certificates, and keys that establishes trust at scale. #Cryptography #PKI
+- The TLS handshake uses asymmetric cryptography to securely exchange a symmetric session key, then switches to symmetric for speed. #Cryptography #TLS
+- Salting a password hash defeats precomputed rainbow table attacks by making every hash unique even for identical passwords. #Cryptography #Salting #Credentials
+- Perfect forward secrecy ensures a compromised long term key can't be used to decrypt previously captured traffic. #Cryptography #ForwardSecrecy
