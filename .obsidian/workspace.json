@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Home/Session Start & End Commands.md",
+                "file": "14 - Tools/Vulnerability Scanning Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +190,8 @@
   },
   "active": "d148e496b1f5e924",
   "lastOpenFiles": [
+    "14 - Tools/Vulnerability Scanning Tools.md",
+    "01 - Home/Session Start & End Commands.md",
     "14 - Tools/Host Tools.md",
     "13 - Reporting/Insider Threats.md",
     "02 - DFIR/Threat Hunting - Hosts.md",
@@ -215,8 +217,6 @@
     "Untitled.md",
     "17 - Attack Techniques",
     "09 - Web/Web Application Testing.md",
-    "13 - Reporting/Vulnerability Management.md",
-    "15 - Forensics & Artifacts/Cryptography.md",
     "Pasted image 20260826121333.png",
     "Pasted image 20260826115523.png",
     "Pasted image 20260826114321.png",
