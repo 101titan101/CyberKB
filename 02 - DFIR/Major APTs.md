@@ -10,3 +10,5 @@
 - Turla is a long running Russian group known for sophisticated, stealthy espionage tooling. #Turla #Russia #NationState
 - Scattered Spider is known for heavy social engineering and SIM swapping attacks against large enterprises. #ScatteredSpider #SocialEngineering #Cybercrime
 - Wicked Panda is a Chinese group associated with the APT41 umbrella, blending espionage and crime. #WickedPanda #APT41 #China
+
+  <img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/458de293-5064-4593-ac63-9d045b357943" />
