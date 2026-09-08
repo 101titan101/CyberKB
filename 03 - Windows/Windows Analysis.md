@@ -1,0 +1,1 @@
+- Windows Subsystem for Linux (WSL) is a Windows feature that lets you run a Linux environment on Windows without a VM or partition #WSL #WindowsSubsystemforLinux #Linux 

@@ -1,4 +1,3 @@
-- E01 is a forensically sound, compressed disk image format, an alternative to raw dd images. #E01 #DFIR #Forensics #DiskFormats
 - wtmp files are Linux/Unix system logs that record every user login, logout, reboot, or shutdown #wtmp #filetypes #Linux  
 - wtmp files can only be read in terminal using 'cat', 'last', or 'less' #wtmp #Filetypes #Linux 
--  
+- 

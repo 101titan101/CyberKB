@@ -1,0 +1,1 @@
+- Local File Inclusion is a web security flaw that allows attackers to view or run files stored on a web server by passing user input directly to file-loading without checks, often via special characters '../' to move back #LocalFileInclusion #LFI #AttackTechniques #WebSecurity 

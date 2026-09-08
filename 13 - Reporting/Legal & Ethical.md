@@ -1,1 +1,2 @@
 - Legal hold requirements can extend evidence retention well beyond a technical investigation's natural end. #LegalHold #Reporting #LegalAndEthical
+- Chain of custody documentation is what makes evidence admissible if a case ever reaches legal proceedings. #ChainOfCustody #DFIR

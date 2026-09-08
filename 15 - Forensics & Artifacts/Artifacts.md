@@ -19,3 +19,4 @@
 - Volume Shadow Copies can preserve older file versions, useful for ransomware recovery investigations. #Artifacts #VSS #Windows
 - Cloud provider audit logs, like CloudTrail, Azure Activity Log, and Entra sign in logs, are the primary cloud forensic artifact. #Artifacts #CloudLogs #Cloud
 - Memory acquisition tools like WinPmem, Magnet RAM Capture, and FTK Imager capture live system memory. #MemoryForensics #DFIR #Tools #WinPnem #MagnetRAM #FTKImager #RAMCapture
+- Windows Subsystem for Linux (WSL) is a Windows feature that lets you run a Linux environment on Windows without a VM or partition #WSL #WindowsSubsystemforLinux #Linux 
