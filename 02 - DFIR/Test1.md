@@ -1,1 +1,1 @@
-![UNSW (Canberra) logo](https://moodle.telt.unsw.edu.au/theme/image.php/remui/theme/1788356003/unsw-canberra-logo)
+![](Red-eyed_Leaf_Frog_(49661076226).jpg)
