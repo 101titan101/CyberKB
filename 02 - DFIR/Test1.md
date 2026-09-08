@@ -1,1 +1,1 @@
-![](Pasted%20image%2020260909075616.png)
+![UNSW (Canberra) logo](https://moodle.telt.unsw.edu.au/theme/image.php/remui/theme/1788356003/unsw-canberra-logo)
