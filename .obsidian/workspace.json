@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DFIR/Test1.md",
+                "file": "02 - DFIR/Baselining.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test1"
+              "title": "Baselining"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - DFIR/Test1.md",
+                "file": "02 - DFIR/Baselining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - DFIR/Test1.md",
+                "file": "02 - DFIR/Baselining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -191,35 +191,36 @@
   },
   "active": "d148e496b1f5e924",
   "lastOpenFiles": [
+    "09 - Web/Cloud.md",
+    "03 - Windows/Event IDs.md",
+    "03 - Windows/Windows Analysis.md",
+    "02 - DFIR/Test1.md",
+    "02 - DFIR/Malware Types.md",
+    "02 - DFIR/Threat Hunting - Hosts.md",
+    "02 - DFIR/Malware Signatures.md",
     "Red-eyed_Leaf_Frog_(49661076226).jpg",
     "Pasted image 20260909075616.png",
     "Pasted image 20260909075402.png",
     "01 - Home/Session Start & End Commands.md",
-    "02 - DFIR/Test1.md",
     "Pasted image 20260909074843.png",
     "01 - Home/Home.md",
     "09 - Web/Web Vulnerabilities.md",
     "17 - Attack Techniques/Host Attack Types.md",
     "05 - Linux/Linux Filetypes.md",
-    "03 - Windows/Windows Analysis.md",
     "15 - Forensics & Artifacts/Artifacts.md",
     "15 - Forensics & Artifacts/Filetypes & Disk Formats.md",
     "13 - Reporting/CVEs.md",
     "02 - DFIR/DFIR General.md",
     "13 - Reporting/Reporting General.md",
-    "02 - DFIR/Malware Signatures.md",
     "02 - DFIR/Major APTs.md",
     "13 - Reporting/Legal & Ethical.md",
     "02 - DFIR/Baselining.md",
-    "02 - DFIR/Malware Types.md",
     "14 - Tools/Vulnerability Scanning Tools.md",
     "14 - Tools/Host Tools.md",
     "13 - Reporting/Insider Threats.md",
-    "02 - DFIR/Threat Hunting - Hosts.md",
     "14 - Tools/Network Scanning Tools.md",
     "02 - DFIR/Threat Hunting - Network.md",
     "14 - Tools/Frameworks.md",
-    "14 - Tools/Tools General.md",
     "17 - Attack Techniques",
     "Pasted image 20260826121333.png",
     "Pasted image 20260826115523.png",
